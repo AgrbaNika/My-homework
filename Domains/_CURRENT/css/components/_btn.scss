@@ -1,0 +1,43 @@
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    text-decoration: none;
+    margin: 1em;
+    margin-bottom: 3em;
+    
+
+    &--theme--white {
+        background: yellow;
+        color: #000;
+
+        &:hover {
+            color: yellow;
+            background: #000;
+        }
+    }
+
+    &--theme--yellow {
+        background: yellow ;
+        color: black;
+    }
+
+    &:hover {
+        color: black;
+        background: yellow
+    }
+
+    &--theme--transparent {
+        background: transparent ;
+        color: white;
+        text-transform: none;
+    }
+
+    &:hover {
+        color: black;
+        background: yellow
+    }
+}
